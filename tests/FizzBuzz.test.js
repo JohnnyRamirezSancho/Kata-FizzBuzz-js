@@ -46,7 +46,7 @@ describe('FizzBuzz', () => {
         expect(result).toBe("Buzz");
     });
 
-    test('should return FizzBuzz', () => {
+    test('should return FizzBuzz is divisible by five or have a five inside AND is divisible by three or have a three inside', () => {
         // Given
         const numb = 53;
         // When
