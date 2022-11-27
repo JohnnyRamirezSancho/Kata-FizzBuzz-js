@@ -1,76 +1,18 @@
-# Kata FizzBuzz
-
-Kata FizzBuzz con javascript y cobertura de test con jest
-
-## Pre-requirement
-
-- node.js & npm
-
-## Dependencies
-
-- jest
-- @babel/core
-- @babel/preset-env
-
-## Installation
-
-```
-$ npm install
-```
-
-
-## Run tests
-
-```
-$ npx jest
-or
-$ npm run test
-```
-You can filter test with ...
-```
-$ npx jest -t '<test-name>'
-or
-$ npm run filter '<test-name>'
-```
-
-### Problem Description
-
-Imagine the scene. You are eleven years old, and in the five minutes before the end of the lesson, your Maths teacher decides he should make his class more “fun” by introducing a “game”. He explains that he is going to point at each pupil in turn and ask them to say the next number in sequence, starting from one. The “fun” part is that if the number is divisible by three, you instead say “Fizz” and if it is divisible by five you say “Buzz”. So now your maths teacher is pointing at all of your classmates in turn, and they happily shout “one!”, “two!”, “Fizz!”, “four!”, “Buzz!”… until he very deliberately points at you, fixing you with a steely gaze… time stands still, your mouth dries up, your palms become sweatier and sweatier until you finally manage to croak “Fizz!”. Doom is avoided, and the pointing finger moves on.
-
-So of course in order to avoid embarassment infront of your whole class, you have to get the full list printed out so you know what to say. Your class has about 33 pupils and he might go round three times before the bell rings for breaktime. Next maths lesson is on Thursday. Get coding!
-
-Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz “.
-
-Sample output:
-
-1
-2
-Fizz
-4
-Buzz
-Fizz
-7
-8
-Fizz
-Buzz
-11
-Fizz
-13
-14
-FizzBuzz
-16
-17
-Fizz
-19
-Buzz
-... etc up to 100
-
-
-Stage 2 - new requirements
-
-* A number is fizz if it is divisible by 3 or if it has a 3 in it
-* A number is buzz if it is divisible by 5 or if it has a 5 in it
-
-
-### Source
-- https://codingdojo.org/kata/FizzBuzz/
+# Proyecto Kata FizzBuzz JS
+## PROYECTO
+A partir de una serie de condiciones dadas, se nos solicita crear los test necesarios para comprobar la funcionalidad de las funcionalidades implementadas.
+## PARTES DEL PROYECTO
+### Programación
+<a href="http://yquetecuentas.com/f5/Kata-FizzBuzz-js/test.jpg" target="_blank"><img src="http://yquetecuentas.com/f5/Kata-FizzBuzz-js/test.jpg" alt="Código y test" width="200"></a>   
+Se nos plantean dos condiciones distintas:
+- Caso 1: Al proporcionar un número, debemos devolver "Fizz" si es divisible por tres, "Buzz" si es divisible por cinco o "FizzBuzz" si es divisible, simultaneamente, por tres y por cinco.
+- Caso 2: Al proporcionar un número, debemos devolver "Fizz" si es divisible por tres o contine esta cifra, o "Buzz" si es divisible por cinco o contiene esta cifra.
+## HERRAMIENTAS Y LENGUAJES UTILIZADOS
+### Lenguajes
+ - JavaScript
+### Herramientas
+- Visual Studio Code, junto a Git Bash, para la creación de los elementos necesarios: documentos JavaScript, así como las carpetas necesarias para su organización, y repositorio local.
+- Jest para la creación y gestión de los test.
+- GitHub para la creación de un repositorio online que nos permitirá recuperar el proyecto desde cualquier dispositivo, así como compartirlo llegado el momento.
+## AUTOR
+- [@JohnnyRamirezSancho](https://github.com/JohnnyRamirezSancho)
